@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Full regression">
+    <test name="Producer tests">
+        <classes>
+            <class name="com.sas.integration.ProducerTests"/>
+        </classes>
+    </test>
+
+    <test name="Consumer tests">
+        <classes>
+            <class name="com.sas.integration.ConsumerTests"/>
+        </classes>
+    </test>
+</suite>
